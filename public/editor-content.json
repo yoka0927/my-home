@@ -434,7 +434,7 @@
       "selector": "#root > div.route-transition > div.clean-scene-home.gallery-site > section.clean-contact-scene > div.clean-contact-copy > span",
       "page": "/#contact",
       "kind": "text",
-      "value": "Bon voyage",
+      "value": "我想留在大家身边，从过去一同迈向明天",
       "src": "",
       "alt": "",
       "hidden": false,
@@ -506,6 +506,28 @@
       "src": "/audio/editor/----------------_-jixwang-_-Tarokiki-_-Emi-Evans.mp3",
       "hidden": false,
       "styles": {}
+    },
+    "/#contact::#root > div.route-transition > div.clean-scene-home.gallery-site > section.clean-contact-scene > div.clean-contact-copy > h1": {
+      "selector": "#root > div.route-transition > div.clean-scene-home.gallery-site > section.clean-contact-scene > div.clean-contact-copy > h1",
+      "page": "/#contact",
+      "kind": "text",
+      "value": "欢迎扩列备用",
+      "src": "",
+      "alt": "",
+      "hidden": false,
+      "styles": {},
+      "parentStyles": {}
+    },
+    "/#contact::#root > div.route-transition > div.clean-scene-home.gallery-site > section.clean-contact-scene > div.clean-contact-copy > p": {
+      "selector": "#root > div.route-transition > div.clean-scene-home.gallery-site > section.clean-contact-scene > div.clean-contact-copy > p",
+      "page": "/#contact",
+      "kind": "text",
+      "value": "交流原创视觉、图片合成、提示词和创作方法。",
+      "src": "",
+      "alt": "",
+      "hidden": true,
+      "styles": {},
+      "parentStyles": {}
     }
   },
   "insertions": [
