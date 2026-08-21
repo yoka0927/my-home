@@ -163,70 +163,6 @@
         "display": "block",
         "border-radius": "12px"
       }
-    },
-    {
-      "id": "gallery-window-1785666685458",
-      "page": "/works",
-      "parentSelector": "[data-editor-gallery-id=\"retouch\"]",
-      "insertPosition": "end",
-      "kind": "image",
-      "src": "/placeholders/black.svg",
-      "alt": "例图窗口",
-      "styles": {
-        "width": "100%",
-        "aspect-ratio": "16 / 9",
-        "object-fit": "cover",
-        "display": "block",
-        "border-radius": "12px"
-      }
-    },
-    {
-      "id": "gallery-window-1785666686332",
-      "page": "/works",
-      "parentSelector": "[data-editor-gallery-id=\"retouch\"]",
-      "insertPosition": "end",
-      "kind": "image",
-      "src": "/placeholders/black.svg",
-      "alt": "例图窗口",
-      "styles": {
-        "width": "100%",
-        "aspect-ratio": "16 / 9",
-        "object-fit": "cover",
-        "display": "block",
-        "border-radius": "12px"
-      }
-    },
-    {
-      "id": "gallery-window-1785666688383",
-      "page": "/works",
-      "parentSelector": "[data-editor-gallery-id=\"restoration\"]",
-      "insertPosition": "end",
-      "kind": "image",
-      "src": "/placeholders/black.svg",
-      "alt": "例图窗口",
-      "styles": {
-        "width": "100%",
-        "aspect-ratio": "16 / 9",
-        "object-fit": "cover",
-        "display": "block",
-        "border-radius": "12px"
-      }
-    },
-    {
-      "id": "gallery-window-1785666689191",
-      "page": "/works",
-      "parentSelector": "[data-editor-gallery-id=\"restoration\"]",
-      "insertPosition": "end",
-      "kind": "image",
-      "src": "/placeholders/black.svg",
-      "alt": "例图窗口",
-      "styles": {
-        "width": "100%",
-        "aspect-ratio": "16 / 9",
-        "object-fit": "cover",
-        "display": "block",
-        "border-radius": "12px"
-      }
     }
   ],
   "pages": [],
@@ -234,20 +170,17 @@
   "gallerySections": [
     {
       "id": "composite",
-      "label": "大合成"
+      "label": "大合成",
+      "aspectRatio": "16 / 9",
+      "columns": 3,
+      "portrait": false
     },
     {
       "id": "semi",
-      "label": "半合成"
-    },
-    {
-      "id": "retouch",
-      "label": "人像精修",
-      "portrait": true
-    },
-    {
-      "id": "restoration",
-      "label": "立绘还原"
+      "label": "半合成",
+      "aspectRatio": "16 / 9",
+      "columns": 3,
+      "portrait": false
     }
   ],
   "galleryImageOrder": {},
