@@ -1,0 +1,98 @@
+import { Volume2, VolumeX } from 'lucide-react'
+import { useEffect, useState } from 'react'
+
+function findPageAudio() {
+  const audio = document.querySelector<HTMLAudioElement>('audio[data-editor-page-audio], audio[data-editor-media-key], audio')
+  if (!audio) return null
+  // 检查是否有有效的音频源
+  const isEditorPageAudio = audio.dataset.editorPageAudio === 'true'
+  const computed = window.getComputedStyle(audio)
+  if (audio.dataset.editorPageDisabled === 'true') return null
+  if (!isEditorPageAudio && (audio.hidden || computed.display === 'none' || computed.visibility === 'hidden')) return null
+  if (!audio.src && !audio.currentSrc && audio.querySelectorAll('source[src]').length === 0) return null
+  return audio
+}
+
+export function PageAudioControl({ placement = 'right' }: { placement?: 'left' | 'right' }) {
+  const [audio, setAudio] = useState<HTMLAudioElement | null>(null)
+  const [volume, setVolume] = useState(0.18)
+  const [muted, setMuted] = useState(false)
+
+  useEffect(() => {
+    let current: HTMLAudioElement | null = null
+    let queued = false
+    const sync = () => {
+      const next = findPageAudio()
+      if (next === current) return
+      current = next
+      setAudio(next)
+      if (next) {
+        const nextVolume = next.volume > 0 && next.volume < 0.99 ? next.volume : 0.18
+        next.volume = nextVolume
+        setVolume(nextVolume)
+        setMuted(next.muted || next.dataset.editorPageDisabled === 'true' || next.volume === 0)
+      }
+    }
+    const scheduleSync = () => {
+      if (queued) return
+      queued = true
+      window.requestAnimationFrame(() => { queued = false; sync() })
+    }
+    window.addEventListener('page-audio-ready', scheduleSync)
+    sync()
+    const routeRoot = document.querySelector('.route-transition') ?? document.body
+    const routeObserver = new MutationObserver(scheduleSync)
+    routeObserver.observe(routeRoot, { childList: true, subtree: true, attributes: true, attributeFilter: ['src', 'hidden', 'data-editor-page-disabled'] })
+    const bodyObserver = new MutationObserver(scheduleSync)
+    bodyObserver.observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ['src', 'hidden', 'data-editor-page-disabled'] })
+    return () => {
+      window.removeEventListener('page-audio-ready', scheduleSync)
+      routeObserver.disconnect()
+      bodyObserver.disconnect()
+    }
+  }, [])
+
+  useEffect(() => {
+    if (!audio) return
+    if (audio.dataset.bgmPlaylist === 'true') {
+      audio.dataset.bgmMuted = String(muted || volume === 0)
+      audio.dispatchEvent(new CustomEvent('bgm-volume', { detail: { volume, muted: muted || volume === 0 } }))
+      return
+    }
+    audio.volume = volume
+    audio.muted = muted || volume === 0
+  }, [audio, muted, volume])
+
+  const toggleMute = () => {
+    if (!audio) return
+    if (muted || volume === 0) {
+      setMuted(false)
+      if (volume === 0) setVolume(0.18)
+      if (audio.dataset.bgmPlaylist === 'true') {
+        audio.dispatchEvent(new CustomEvent('bgm-toggle', { detail: { muted: false } }))
+      } else {
+        void audio.play().catch(() => undefined)
+      }
+    } else {
+      setMuted(true)
+      if (audio.dataset.bgmPlaylist === 'true') {
+        audio.dispatchEvent(new CustomEvent('bgm-toggle', { detail: { muted: true } }))
+      } else {
+        audio.pause()
+      }
+    }
+  }
+
+  // 没有BGM时不显示音量控制
+  if (!audio) return null
+
+  return (
+    <div className={`page-audio-control is-${placement}`} aria-label="本页 BGM 音量控制">
+      <button type="button" onClick={toggleMute} aria-label={muted || volume === 0 ? '打开本页 BGM' : '静音本页 BGM'} title={muted || volume === 0 ? '打开本页 BGM' : '静音本页 BGM'}>
+        {muted || volume === 0 ? <VolumeX size={16} /> : <Volume2 size={16} />}
+      </button>
+      <input type="range" min="0" max="1" step="0.01" value={muted ? 0 : volume} onChange={(event) => { const next = Number(event.target.value); setVolume(next); setMuted(next === 0) }} aria-label="本页 BGM 音量" />
+      <span>{Math.round((muted ? 0 : volume) * 100)}%</span>
+    </div>
+  )
+}

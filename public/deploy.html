@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>一键部署网站</title>
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+    body { margin: 0; min-height: 100vh; background: #15191a; color: #eef3f0; display: grid; place-items: center; }
+    main { width: min(680px, calc(100% - 32px)); padding: 32px; border: 1px solid #39433f; background: #1d2323; }
+    h1 { margin: 0 0 10px; font-size: 28px; }
+    p { color: #b9c3be; line-height: 1.7; }
+    ol { padding-left: 24px; color: #dce5e0; line-height: 2; }
+    a, button { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 0 18px; border: 0; background: #dfff19; color: #111; font-weight: 700; text-decoration: none; cursor: pointer; }
+    a[aria-disabled="true"] { opacity: .45; pointer-events: none; }
+    code { color: #dfff19; overflow-wrap: anywhere; }
+    .note { border-left: 3px solid #dfff19; padding-left: 14px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>一键部署网站</h1>
+    <p>这是无后端部署方式。你只需要登录自己的 Vercel，Vercel 会复制公开模板并自动构建，不需要把 GitHub 密码或 Token 交给本项目。</p>
+    <a id="deploy" href="#" aria-disabled="true">部署到 Vercel</a>
+    <p id="status" class="note">正在检查开源仓库地址...</p>
+    <ol>
+      <li>点击上面的按钮，并使用自己的 Vercel 账号登录。</li>
+      <li>确认项目名称和构建设置，点击 Deploy。</li>
+      <li>部署完成后，进入项目的 Domains 页面查看网站地址。</li>
+      <li>编辑器仍在本地运行；编辑完成后，将生成的文件提交到自己的 GitHub，再由 Vercel 自动更新。</li>
+    </ol>
+    <p>如果按钮不可用，请项目维护者先编辑 <code>public/deploy-config.js</code>，填入公开 GitHub 仓库地址。</p>
+  </main>
+  <script src="/deploy-config.js"></script>
+  <script>
+    const config = window.OPEN_SOURCE_DEPLOY_CONFIG || {}
+    const repo = String(config.repositoryUrl || '').trim()
+    const button = document.querySelector('#deploy')
+    const status = document.querySelector('#status')
+    if (repo && !repo.includes('你的账号') && !repo.includes('你的仓库名')) {
+      button.href = 'https://vercel.com/new/clone?repository-url=' + encodeURIComponent(repo)
+      button.removeAttribute('aria-disabled')
+      status.textContent = '仓库已配置：' + repo
+    } else {
+      status.textContent = '尚未配置公开 GitHub 仓库地址，暂时不能生成部署按钮。'
+    }
+  </script>
+</body>
+</html>

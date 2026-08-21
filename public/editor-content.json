@@ -1,0 +1,286 @@
+{
+  "version": 1,
+  "overrides": {
+    "/#works::__page_background_image__": {
+      "selector": "__page_background_image__",
+      "page": "/#works",
+      "kind": "image",
+      "src": "/images/editor/rushrad0441_Cybernetic_Baroque_Space_Combat_droid_inside_a_Baro_c16351db-c4fa-47f9-8061-9f41f3e01d9d.webp",
+      "srcMobile": "/images/editor/rushrad0441_Cybernetic_Baroque_Space_Combat_droid_inside_a_Baro_c16351db-c4fa-47f9-8061-9f41f3e01d9d-mobile.webp",
+      "hidden": false,
+      "styles": {}
+    },
+    "/#pricing::[data-editor-text-key=\"nav-link-1\"]": {
+      "selector": "[data-editor-text-key=\"nav-link-1\"]",
+      "page": "/#pricing",
+      "kind": "text",
+      "value": "报价单",
+      "src": "",
+      "alt": "",
+      "hidden": false,
+      "styles": {},
+      "parentStyles": {}
+    },
+    "/#pricing::[data-editor-text-key=\"pricing-status\"]": {
+      "selector": "[data-editor-text-key=\"pricing-status\"]",
+      "page": "/#pricing",
+      "kind": "text",
+      "value": "找我排单预约喔",
+      "src": "",
+      "alt": "",
+      "hidden": false,
+      "styles": {},
+      "parentStyles": {}
+    },
+    "/#pricing::__page_background_image__": {
+      "selector": "__page_background_image__",
+      "page": "/#pricing",
+      "kind": "image",
+      "src": "/images/editor/rushrad0441_A_lone_figure_standing_on_a_futuristic_elevated_pla_65643812-2215-488b-8b25-62a23ef419dc.webp",
+      "srcMobile": "/images/editor/rushrad0441_A_lone_figure_standing_on_a_futuristic_elevated_pla_65643812-2215-488b-8b25-62a23ef419dc-mobile.webp",
+      "hidden": false,
+      "styles": {}
+    },
+    "/#contact::__page_background_image__": {
+      "selector": "__page_background_image__",
+      "page": "/#contact",
+      "kind": "image",
+      "src": "/images/editor/---23.webp",
+      "srcMobile": "/images/editor/---23-mobile.webp",
+      "hidden": false,
+      "styles": {}
+    }
+  },
+  "insertions": [
+    {
+      "id": "gallery-window-1785666677724",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"composite\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/placeholders/black.svg",
+      "alt": "例图窗口",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "16 / 9",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-window-1785666678449",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"composite\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/placeholders/black.svg",
+      "alt": "例图窗口",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "16 / 9",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-window-1785666679233",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"composite\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/placeholders/black.svg",
+      "alt": "例图窗口",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "16 / 9",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-window-1785666679940",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"composite\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/placeholders/black.svg",
+      "alt": "例图窗口",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "16 / 9",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-window-1785666681833",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"semi\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/placeholders/black.svg",
+      "alt": "例图窗口",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "16 / 9",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-window-1785666682700",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"semi\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/placeholders/black.svg",
+      "alt": "例图窗口",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "16 / 9",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-window-1785666683424",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"semi\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/placeholders/black.svg",
+      "alt": "例图窗口",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "16 / 9",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-window-1785666685458",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"retouch\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/placeholders/black.svg",
+      "alt": "例图窗口",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "16 / 9",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-window-1785666686332",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"retouch\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/placeholders/black.svg",
+      "alt": "例图窗口",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "16 / 9",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-window-1785666688383",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"restoration\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/placeholders/black.svg",
+      "alt": "例图窗口",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "16 / 9",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-window-1785666689191",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"restoration\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/placeholders/black.svg",
+      "alt": "例图窗口",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "16 / 9",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    }
+  ],
+  "pages": [],
+  "disabledBgmIds": [],
+  "gallerySections": [
+    {
+      "id": "composite",
+      "label": "大合成"
+    },
+    {
+      "id": "semi",
+      "label": "半合成"
+    },
+    {
+      "id": "retouch",
+      "label": "人像精修",
+      "portrait": true
+    },
+    {
+      "id": "restoration",
+      "label": "立绘还原"
+    }
+  ],
+  "galleryImageOrder": {},
+  "galleryHiddenImageIds": [],
+  "contactButtons": [
+    {
+      "id": "contact-link-1785600835023",
+      "label": "抖音",
+      "value": "",
+      "kind": "link"
+    },
+    {
+      "id": "contact-qq-1785600842530",
+      "label": "QQ 联系",
+      "value": "1140761073"
+    },
+    {
+      "id": "contact-wechat-1785600878906",
+      "label": "微信联系",
+      "value": "18120936565",
+      "kind": "wechat"
+    },
+    {
+      "id": "contact-link-1785601017458",
+      "label": "小红书",
+      "value": "",
+      "kind": "link"
+    },
+    {
+      "id": "contact-link-1785652073778",
+      "label": "Q群",
+      "value": "",
+      "kind": "link"
+    }
+  ]
+}
