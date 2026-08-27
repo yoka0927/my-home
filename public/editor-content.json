@@ -179,19 +179,6 @@
       "styles": {},
       "parentStyles": {}
     },
-    "/works::[data-editor-insert-id=\"gallery-batch-1787288018063-13\"][data-editor-insert-image=\"true\"]": {
-      "selector": "[data-editor-insert-id=\"gallery-batch-1787288018063-13\"][data-editor-insert-image=\"true\"]",
-      "page": "/works",
-      "kind": "image",
-      "value": "",
-      "src": "/images/editor/batch-1787288018063-13-DSC06161.webp",
-      "alt": "DSC06161",
-      "hidden": false,
-      "styles": {
-        "left": "465px"
-      },
-      "parentStyles": {}
-    },
     "/works::[data-editor-text-key=\"gallery-semi-heading\"]": {
       "selector": "[data-editor-text-key=\"gallery-semi-heading\"]",
       "page": "/works",
@@ -800,6 +787,74 @@
         "display": "block",
         "border-radius": "12px"
       }
+    },
+    "/::[data-editor-gallery-image-id=\"semi-09\"] img": {
+      "selector": "[data-editor-gallery-image-id=\"semi-09\"] img",
+      "page": "/",
+      "kind": "image",
+      "src": "/images/editor/batch-1787816143402-1-ComfyUI_----_1787466070464_1.webp",
+      "srcMobile": "/images/editor/batch-1787816143402-1-ComfyUI_----_1787466070464_1-mobile.webp",
+      "alt": "ComfyUI_清空环境_1787466070464_1",
+      "parentStyles": {
+        "aspect-ratio": "2 / 3"
+      },
+      "styles": {
+        "width": "100%",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    "/works::[data-editor-gallery-image-id=\"semi-09\"] img": {
+      "selector": "[data-editor-gallery-image-id=\"semi-09\"] img",
+      "page": "/works",
+      "kind": "image",
+      "src": "/images/editor/batch-1787816143402-1-ComfyUI_----_1787466070464_1.webp",
+      "srcMobile": "/images/editor/batch-1787816143402-1-ComfyUI_----_1787466070464_1-mobile.webp",
+      "alt": "ComfyUI_清空环境_1787466070464_1",
+      "parentStyles": {
+        "aspect-ratio": "2 / 3"
+      },
+      "styles": {
+        "width": "100%",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    "/::[data-editor-gallery-image-id=\"semi-10\"] img": {
+      "selector": "[data-editor-gallery-image-id=\"semi-10\"] img",
+      "page": "/",
+      "kind": "image",
+      "src": "/images/editor/batch-1787816143402-2-ComfyUI_----_1787660528629_1.webp",
+      "srcMobile": "/images/editor/batch-1787816143402-2-ComfyUI_----_1787660528629_1-mobile.webp",
+      "alt": "ComfyUI_清空环境_1787660528629_1",
+      "parentStyles": {
+        "aspect-ratio": "3182 / 2120"
+      },
+      "styles": {
+        "width": "100%",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    "/works::[data-editor-gallery-image-id=\"semi-10\"] img": {
+      "selector": "[data-editor-gallery-image-id=\"semi-10\"] img",
+      "page": "/works",
+      "kind": "image",
+      "src": "/images/editor/batch-1787816143402-2-ComfyUI_----_1787660528629_1.webp",
+      "srcMobile": "/images/editor/batch-1787816143402-2-ComfyUI_----_1787660528629_1-mobile.webp",
+      "alt": "ComfyUI_清空环境_1787660528629_1",
+      "parentStyles": {
+        "aspect-ratio": "3182 / 2120"
+      },
+      "styles": {
+        "width": "100%",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
     }
   },
   "insertions": [
@@ -1059,22 +1114,6 @@
       }
     },
     {
-      "id": "gallery-batch-1787288018063-13",
-      "page": "/works",
-      "parentSelector": "[data-editor-gallery-id=\"composite\"]",
-      "insertPosition": "end",
-      "kind": "image",
-      "src": "/images/editor/batch-1787288018063-13-DSC06161.webp",
-      "alt": "DSC06161",
-      "styles": {
-        "width": "100%",
-        "aspect-ratio": "3840 / 2560",
-        "object-fit": "cover",
-        "display": "block",
-        "border-radius": "12px"
-      }
-    },
-    {
       "id": "gallery-window-1787288128359",
       "page": "/works",
       "parentSelector": "[data-editor-gallery-id=\"semi\"]",
@@ -1243,6 +1282,108 @@
         "display": "block",
         "border-radius": "12px"
       }
+    },
+    {
+      "id": "gallery-batch-1787816176435-1",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"semi\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/images/editor/batch-1787816176435-1-ComfyUI_----_1787466070464_1.webp",
+      "srcMobile": "/images/editor/batch-1787816176435-1-ComfyUI_----_1787466070464_1-mobile.webp",
+      "alt": "ComfyUI_清空环境_1787466070464_1",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "2 / 3",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-batch-1787816176435-2",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"semi\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/images/editor/batch-1787816176435-2-ComfyUI_----_1787660528629_1.webp",
+      "srcMobile": "/images/editor/batch-1787816176435-2-ComfyUI_----_1787660528629_1-mobile.webp",
+      "alt": "ComfyUI_清空环境_1787660528629_1",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "3182 / 2120",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-batch-1787816204903-1",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"semi\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/images/editor/batch-1787816204903-1-----_20260804100215_24_3222.webp",
+      "srcMobile": "/images/editor/batch-1787816204903-1-----_20260804100215_24_3222-mobile.webp",
+      "alt": "微信图片_20260804100215_24_3222",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "16 / 9",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-batch-1787816204903-2",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"semi\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/images/editor/batch-1787816204903-2-----_20260805153758_39_3222.webp",
+      "srcMobile": "/images/editor/batch-1787816204903-2-----_20260805153758_39_3222-mobile.webp",
+      "alt": "微信图片_20260805153758_39_3222",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "3762 / 2508",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-batch-1787816300985-1",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"composite\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/images/editor/batch-1787816300985-1-DSC00845_-2-.webp",
+      "srcMobile": "/images/editor/batch-1787816300985-1-DSC00845_-2--mobile.webp",
+      "alt": "DSC00845_(2)",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "3840 / 2560",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-batch-1787818091482-1",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"composite\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/images/editor/batch-1787818091482-1-----_20260827160738_576_680.webp",
+      "srcMobile": "/images/editor/batch-1787818091482-1-----_20260827160738_576_680-mobile.webp",
+      "alt": "微信图片_20260827160738_576_680",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "1743 / 1152",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
     }
   ],
   "pages": [],
@@ -1279,20 +1420,21 @@
       "gallery-batch-1787288018063-3",
       "gallery-batch-1787288018063-4",
       "gallery-batch-1787288018063-5",
-      "gallery-batch-1787288018063-6",
       "gallery-batch-1787288018063-7",
+      "gallery-batch-1787288018063-6",
       "gallery-batch-1787288018063-8",
-      "gallery-batch-1787288018063-9",
       "gallery-batch-1787815781758-2",
       "gallery-batch-1787288018063-10",
       "gallery-batch-1787288018063-11",
-      "gallery-batch-1787288018063-12",
+      "gallery-batch-1787288018063-9",
       "gallery-batch-1787815781758-1",
       "gallery-batch-1787815781758-5",
+      "gallery-batch-1787815781758-7",
       "gallery-batch-1787815781758-4",
       "gallery-batch-1787815781758-6",
-      "gallery-batch-1787288018063-13",
-      "gallery-batch-1787815781758-7"
+      "gallery-batch-1787816300985-1",
+      "gallery-batch-1787288018063-12",
+      "gallery-batch-1787818091482-1"
     ]
   },
   "galleryHiddenImageIds": [
