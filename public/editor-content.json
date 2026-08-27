@@ -528,6 +528,278 @@
       "hidden": true,
       "styles": {},
       "parentStyles": {}
+    },
+    "/::[data-editor-gallery-image-id=\"semi-01\"] img": {
+      "selector": "[data-editor-gallery-image-id=\"semi-01\"] img",
+      "page": "/",
+      "kind": "image",
+      "src": "/images/editor/batch-1787815857579-1-ComfyUI_----_1787466070464_1.webp",
+      "srcMobile": "/images/editor/batch-1787815857579-1-ComfyUI_----_1787466070464_1-mobile.webp",
+      "alt": "ComfyUI_清空环境_1787466070464_1",
+      "parentStyles": {
+        "aspect-ratio": "2 / 3"
+      },
+      "styles": {
+        "width": "100%",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    "/works::[data-editor-gallery-image-id=\"semi-01\"] img": {
+      "selector": "[data-editor-gallery-image-id=\"semi-01\"] img",
+      "page": "/works",
+      "kind": "image",
+      "src": "/images/editor/batch-1787815857579-1-ComfyUI_----_1787466070464_1.webp",
+      "srcMobile": "/images/editor/batch-1787815857579-1-ComfyUI_----_1787466070464_1-mobile.webp",
+      "alt": "ComfyUI_清空环境_1787466070464_1",
+      "parentStyles": {
+        "aspect-ratio": "2 / 3"
+      },
+      "styles": {
+        "width": "100%",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    "/::[data-editor-gallery-image-id=\"semi-02\"] img": {
+      "selector": "[data-editor-gallery-image-id=\"semi-02\"] img",
+      "page": "/",
+      "kind": "image",
+      "src": "/images/editor/batch-1787815857579-2-ComfyUI_----_1787660528629_1.webp",
+      "srcMobile": "/images/editor/batch-1787815857579-2-ComfyUI_----_1787660528629_1-mobile.webp",
+      "alt": "ComfyUI_清空环境_1787660528629_1",
+      "parentStyles": {
+        "aspect-ratio": "3182 / 2120"
+      },
+      "styles": {
+        "width": "100%",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    "/works::[data-editor-gallery-image-id=\"semi-02\"] img": {
+      "selector": "[data-editor-gallery-image-id=\"semi-02\"] img",
+      "page": "/works",
+      "kind": "image",
+      "src": "/images/editor/batch-1787815857579-2-ComfyUI_----_1787660528629_1.webp",
+      "srcMobile": "/images/editor/batch-1787815857579-2-ComfyUI_----_1787660528629_1-mobile.webp",
+      "alt": "ComfyUI_清空环境_1787660528629_1",
+      "parentStyles": {
+        "aspect-ratio": "3182 / 2120"
+      },
+      "styles": {
+        "width": "100%",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    "/::[data-editor-gallery-image-id=\"semi-03\"] img": {
+      "selector": "[data-editor-gallery-image-id=\"semi-03\"] img",
+      "page": "/",
+      "kind": "image",
+      "src": "/images/editor/batch-1787815882225-1-ComfyUI_----_1787466070464_1.webp",
+      "srcMobile": "/images/editor/batch-1787815882225-1-ComfyUI_----_1787466070464_1-mobile.webp",
+      "alt": "ComfyUI_清空环境_1787466070464_1",
+      "parentStyles": {
+        "aspect-ratio": "2 / 3"
+      },
+      "styles": {
+        "width": "100%",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    "/works::[data-editor-gallery-image-id=\"semi-03\"] img": {
+      "selector": "[data-editor-gallery-image-id=\"semi-03\"] img",
+      "page": "/works",
+      "kind": "image",
+      "src": "/images/editor/batch-1787815882225-1-ComfyUI_----_1787466070464_1.webp",
+      "srcMobile": "/images/editor/batch-1787815882225-1-ComfyUI_----_1787466070464_1-mobile.webp",
+      "alt": "ComfyUI_清空环境_1787466070464_1",
+      "parentStyles": {
+        "aspect-ratio": "2 / 3"
+      },
+      "styles": {
+        "width": "100%",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    "/::[data-editor-gallery-image-id=\"semi-04\"] img": {
+      "selector": "[data-editor-gallery-image-id=\"semi-04\"] img",
+      "page": "/",
+      "kind": "image",
+      "src": "/images/editor/batch-1787815882225-2-ComfyUI_----_1787660528629_1.webp",
+      "srcMobile": "/images/editor/batch-1787815882225-2-ComfyUI_----_1787660528629_1-mobile.webp",
+      "alt": "ComfyUI_清空环境_1787660528629_1",
+      "parentStyles": {
+        "aspect-ratio": "3182 / 2120"
+      },
+      "styles": {
+        "width": "100%",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    "/works::[data-editor-gallery-image-id=\"semi-04\"] img": {
+      "selector": "[data-editor-gallery-image-id=\"semi-04\"] img",
+      "page": "/works",
+      "kind": "image",
+      "src": "/images/editor/batch-1787815882225-2-ComfyUI_----_1787660528629_1.webp",
+      "srcMobile": "/images/editor/batch-1787815882225-2-ComfyUI_----_1787660528629_1-mobile.webp",
+      "alt": "ComfyUI_清空环境_1787660528629_1",
+      "parentStyles": {
+        "aspect-ratio": "3182 / 2120"
+      },
+      "styles": {
+        "width": "100%",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    "/::[data-editor-gallery-image-id=\"semi-05\"] img": {
+      "selector": "[data-editor-gallery-image-id=\"semi-05\"] img",
+      "page": "/",
+      "kind": "image",
+      "src": "/images/editor/batch-1787815935436-1-ComfyUI_----_1787466070464_1.webp",
+      "srcMobile": "/images/editor/batch-1787815935436-1-ComfyUI_----_1787466070464_1-mobile.webp",
+      "alt": "ComfyUI_清空环境_1787466070464_1",
+      "parentStyles": {
+        "aspect-ratio": "2 / 3"
+      },
+      "styles": {
+        "width": "100%",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    "/works::[data-editor-gallery-image-id=\"semi-05\"] img": {
+      "selector": "[data-editor-gallery-image-id=\"semi-05\"] img",
+      "page": "/works",
+      "kind": "image",
+      "src": "/images/editor/batch-1787815935436-1-ComfyUI_----_1787466070464_1.webp",
+      "srcMobile": "/images/editor/batch-1787815935436-1-ComfyUI_----_1787466070464_1-mobile.webp",
+      "alt": "ComfyUI_清空环境_1787466070464_1",
+      "parentStyles": {
+        "aspect-ratio": "2 / 3"
+      },
+      "styles": {
+        "width": "100%",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    "/::[data-editor-gallery-image-id=\"semi-06\"] img": {
+      "selector": "[data-editor-gallery-image-id=\"semi-06\"] img",
+      "page": "/",
+      "kind": "image",
+      "src": "/images/editor/batch-1787815935436-2-ComfyUI_----_1787660528629_1.webp",
+      "srcMobile": "/images/editor/batch-1787815935436-2-ComfyUI_----_1787660528629_1-mobile.webp",
+      "alt": "ComfyUI_清空环境_1787660528629_1",
+      "parentStyles": {
+        "aspect-ratio": "3182 / 2120"
+      },
+      "styles": {
+        "width": "100%",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    "/works::[data-editor-gallery-image-id=\"semi-06\"] img": {
+      "selector": "[data-editor-gallery-image-id=\"semi-06\"] img",
+      "page": "/works",
+      "kind": "image",
+      "src": "/images/editor/batch-1787815935436-2-ComfyUI_----_1787660528629_1.webp",
+      "srcMobile": "/images/editor/batch-1787815935436-2-ComfyUI_----_1787660528629_1-mobile.webp",
+      "alt": "ComfyUI_清空环境_1787660528629_1",
+      "parentStyles": {
+        "aspect-ratio": "3182 / 2120"
+      },
+      "styles": {
+        "width": "100%",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    "/::[data-editor-gallery-image-id=\"semi-07\"] img": {
+      "selector": "[data-editor-gallery-image-id=\"semi-07\"] img",
+      "page": "/",
+      "kind": "image",
+      "src": "/images/editor/batch-1787815990040-1-ComfyUI_----_1787466070464_1.webp",
+      "srcMobile": "/images/editor/batch-1787815990040-1-ComfyUI_----_1787466070464_1-mobile.webp",
+      "alt": "ComfyUI_清空环境_1787466070464_1",
+      "parentStyles": {
+        "aspect-ratio": "2 / 3"
+      },
+      "styles": {
+        "width": "100%",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    "/works::[data-editor-gallery-image-id=\"semi-07\"] img": {
+      "selector": "[data-editor-gallery-image-id=\"semi-07\"] img",
+      "page": "/works",
+      "kind": "image",
+      "src": "/images/editor/batch-1787815990040-1-ComfyUI_----_1787466070464_1.webp",
+      "srcMobile": "/images/editor/batch-1787815990040-1-ComfyUI_----_1787466070464_1-mobile.webp",
+      "alt": "ComfyUI_清空环境_1787466070464_1",
+      "parentStyles": {
+        "aspect-ratio": "2 / 3"
+      },
+      "styles": {
+        "width": "100%",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    "/::[data-editor-gallery-image-id=\"semi-08\"] img": {
+      "selector": "[data-editor-gallery-image-id=\"semi-08\"] img",
+      "page": "/",
+      "kind": "image",
+      "src": "/images/editor/batch-1787815990040-2-ComfyUI_----_1787660528629_1.webp",
+      "srcMobile": "/images/editor/batch-1787815990040-2-ComfyUI_----_1787660528629_1-mobile.webp",
+      "alt": "ComfyUI_清空环境_1787660528629_1",
+      "parentStyles": {
+        "aspect-ratio": "3182 / 2120"
+      },
+      "styles": {
+        "width": "100%",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    "/works::[data-editor-gallery-image-id=\"semi-08\"] img": {
+      "selector": "[data-editor-gallery-image-id=\"semi-08\"] img",
+      "page": "/works",
+      "kind": "image",
+      "src": "/images/editor/batch-1787815990040-2-ComfyUI_----_1787660528629_1.webp",
+      "srcMobile": "/images/editor/batch-1787815990040-2-ComfyUI_----_1787660528629_1-mobile.webp",
+      "alt": "ComfyUI_清空环境_1787660528629_1",
+      "parentStyles": {
+        "aspect-ratio": "3182 / 2120"
+      },
+      "styles": {
+        "width": "100%",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
     }
   },
   "insertions": [
@@ -803,23 +1075,6 @@
       }
     },
     {
-      "id": "gallery-window-1787288120559",
-      "page": "/works",
-      "parentSelector": "[data-editor-gallery-id=\"semi\"]",
-      "insertPosition": "end",
-      "kind": "image",
-      "src": "/images/editor/batch-1787288191758-4-----_20260804100215_24_3222.webp",
-      "alt": "微信图片_20260804100215_24_3222",
-      "styles": {
-        "width": "100%",
-        "aspect-ratio": "16 / 9",
-        "object-fit": "cover",
-        "display": "block",
-        "border-radius": "12px"
-      },
-      "srcMobile": "/images/editor/batch-1787288191758-4-----_20260804100215_24_3222-mobile.webp"
-    },
-    {
       "id": "gallery-window-1787288128359",
       "page": "/works",
       "parentSelector": "[data-editor-gallery-id=\"semi\"]",
@@ -835,23 +1090,6 @@
         "border-radius": "12px"
       },
       "srcMobile": "/images/editor/batch-1787288191758-5-----_20260805130137_50_3217-mobile.webp"
-    },
-    {
-      "id": "gallery-window-1787288130853",
-      "page": "/works",
-      "parentSelector": "[data-editor-gallery-id=\"semi\"]",
-      "insertPosition": "end",
-      "kind": "image",
-      "src": "/images/editor/batch-1787288191758-6-----_20260805153758_39_3222.webp",
-      "alt": "微信图片_20260805153758_39_3222",
-      "styles": {
-        "width": "100%",
-        "aspect-ratio": "3762 / 2508",
-        "object-fit": "cover",
-        "display": "block",
-        "border-radius": "12px"
-      },
-      "srcMobile": "/images/editor/batch-1787288191758-6-----_20260805153758_39_3222-mobile.webp"
     },
     {
       "id": "gallery-window-1787288135136",
@@ -903,6 +1141,108 @@
         "border-radius": "12px"
       },
       "srcMobile": "/images/editor/batch-1787288191758-9-DSC07116-mobile.webp"
+    },
+    {
+      "id": "gallery-batch-1787815781758-1",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"composite\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/images/editor/batch-1787815781758-1-9a9e6de198c95c349e2ff1e4d1b01a80.webp",
+      "srcMobile": "/images/editor/batch-1787815781758-1-9a9e6de198c95c349e2ff1e4d1b01a80-mobile.webp",
+      "alt": "9a9e6de198c95c349e2ff1e4d1b01a80",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "3840 / 2560",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-batch-1787815781758-2",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"composite\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/images/editor/batch-1787815781758-2-95f1d348b9dcef7e48b2c52daca907e4.webp",
+      "srcMobile": "/images/editor/batch-1787815781758-2-95f1d348b9dcef7e48b2c52daca907e4-mobile.webp",
+      "alt": "95f1d348b9dcef7e48b2c52daca907e4",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "1919 / 1280",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-batch-1787815781758-4",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"composite\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/images/editor/batch-1787815781758-4-ComfyUI_----_1787482937173_2.webp",
+      "srcMobile": "/images/editor/batch-1787815781758-4-ComfyUI_----_1787482937173_2-mobile.webp",
+      "alt": "ComfyUI_人像精修_1787482937173_2",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "2048 / 1366",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-batch-1787815781758-5",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"composite\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/images/editor/batch-1787815781758-5-d3e84ff2b671bdf200ea53739b3174ea.webp",
+      "srcMobile": "/images/editor/batch-1787815781758-5-d3e84ff2b671bdf200ea53739b3174ea-mobile.webp",
+      "alt": "d3e84ff2b671bdf200ea53739b3174ea",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "3840 / 2560",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-batch-1787815781758-6",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"composite\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/images/editor/batch-1787815781758-6-e13e3ab9581f78a29ee8ea572895fbf8.webp",
+      "srcMobile": "/images/editor/batch-1787815781758-6-e13e3ab9581f78a29ee8ea572895fbf8-mobile.webp",
+      "alt": "e13e3ab9581f78a29ee8ea572895fbf8",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "2 / 3",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
+    },
+    {
+      "id": "gallery-batch-1787815781758-7",
+      "page": "/works",
+      "parentSelector": "[data-editor-gallery-id=\"composite\"]",
+      "insertPosition": "end",
+      "kind": "image",
+      "src": "/images/editor/batch-1787815781758-7-IMG_5481.webp",
+      "srcMobile": "/images/editor/batch-1787815781758-7-IMG_5481-mobile.webp",
+      "alt": "IMG_5481",
+      "styles": {
+        "width": "100%",
+        "aspect-ratio": "3840 / 2560",
+        "object-fit": "cover",
+        "display": "block",
+        "border-radius": "12px"
+      }
     }
   ],
   "pages": [],
@@ -933,7 +1273,27 @@
     }
   ],
   "galleryImageOrder": {
-    "composite": []
+    "composite": [
+      "gallery-batch-1787288018063-1",
+      "gallery-batch-1787288018063-2",
+      "gallery-batch-1787288018063-3",
+      "gallery-batch-1787288018063-4",
+      "gallery-batch-1787288018063-5",
+      "gallery-batch-1787288018063-6",
+      "gallery-batch-1787288018063-7",
+      "gallery-batch-1787288018063-8",
+      "gallery-batch-1787288018063-9",
+      "gallery-batch-1787815781758-2",
+      "gallery-batch-1787288018063-10",
+      "gallery-batch-1787288018063-11",
+      "gallery-batch-1787288018063-12",
+      "gallery-batch-1787815781758-1",
+      "gallery-batch-1787815781758-5",
+      "gallery-batch-1787815781758-4",
+      "gallery-batch-1787815781758-6",
+      "gallery-batch-1787288018063-13",
+      "gallery-batch-1787815781758-7"
+    ]
   },
   "galleryHiddenImageIds": [
     "composite-01",
